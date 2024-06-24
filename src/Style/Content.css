@@ -1,0 +1,153 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid black; */
+    border: 2px solid rgba(255, 255,255, 0.1) ;
+    background-color: rgba(255, 255,255, 0.09);
+    box-shadow: 1px 1px 1px rgba(255, 255,255, 0.1) ;
+
+    min-height: 460px;
+    min-width: 500px ; 
+
+
+    margin-top: 1.5%;
+
+    border-radius: 20px;
+}
+
+.leftContainer{
+    border: 1px solid rgba(255, 255,255, 0.1) ;
+}
+
+.uniColor{
+    color: #fff; 
+}
+
+.mainbackColor{
+    background-color: rgba(255, 255,255, 0.09);
+}
+
+.state{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 55px;
+}
+
+
+.status{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.degree{
+    color: #fff;
+}
+
+.degreeFont{
+    margin-top: 1%;
+    font-size: 48px;
+}
+
+
+.rightContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+/* Weather Lower  */
+
+
+.weatherInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 1.5% ;
+}
+
+    
+
+
+
+
+.leftMainStatus{
+    display: flex;
+    flex-direction: column;
+}
+
+.windHeader{
+    display: flex;
+    align-items: center;
+    height: 25px;   
+    margin: 3%;
+}
+
+.windHeader h4{
+    margin-left: 4%;
+    margin-top: 15px;
+}
+
+.contentWrapper{
+    display: flex;
+    height: 145px;
+    width: max-content;
+
+}
+
+.FixContainerheight{
+    width: 170px;
+}
+
+.curve{
+    border-radius: 10px;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}   
+
+.windStructure{
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+    justify-content: space-evenly;
+
+    height: 47px;
+}
+
+.endline{
+    border-top: 1px solid #ccc;
+}
+
+.windFont{
+    font-size: 35px;
+}
+
+.windContentUpper{
+    display: flex;
+    flex-direction: column;
+}
+
+.valueUV{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+.QuickBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}

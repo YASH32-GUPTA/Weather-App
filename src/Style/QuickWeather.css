@@ -1,0 +1,48 @@
+.Box{
+    display: flex ; 
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 1%;
+    padding: 5px;
+    margin-left: 1%;
+
+
+    height: max-content;
+    width: 140px;
+
+    border: 1px solid rgba(255, 255,255, 0.1) ;
+}
+
+.quickHeader{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.quickHeader h3{
+  margin-left: 4%;
+}
+
+.lowerDegree{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.quickInfo{
+    font-size: 14px;
+}
+
+.quickInfo p {
+    margin:  2% ;
+}
+
+.quickFont{
+    font-size: 12px;
+}
+
+.quickFont svg{
+    font-size: 20px;
+}

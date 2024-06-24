@@ -1,0 +1,48 @@
+.weather-Box{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+    flex: 1;
+}
+
+.header{
+    letter-spacing: 1px;
+    color: #ccc;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.formBox{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    margin-top: 1%;
+}
+
+.buttonSearch button{
+    height: 50px !important;
+
+    color: #ccc;
+    border: 1px solid #ccc;
+    margin-left: 6%;
+}
+
+.buttonSearch button:hover{
+    border: 1px solid #ccc;
+    background-color: #cccccc29 !important;
+
+}
+
+.formContent{
+    display: flex;
+}
+
+.textField input{
+    height: 17px !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}

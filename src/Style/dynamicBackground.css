@@ -1,0 +1,57 @@
+@media(max-width : 645px){
+
+    .mainBody{
+        overflow: hidden;
+    }
+
+    .mainContent{
+        min-width : 375px !important;
+    }
+
+    .formContent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonSearch button {
+        margin-top: 20%;
+    }
+
+    .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root{
+        margin: 0% auto;
+        width: 60% !important;
+    }
+
+    .responsive{
+        text-align: center;
+    }
+
+    .weatherInfo{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2%;
+
+    }
+
+    .FixContainerheight{
+        margin: 0 1%;
+        width: 230px;
+    }
+
+    .rightResponsive{
+        margin-top: 3%;
+        width: 75% !important;
+    }
+
+    .QuickBox{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .Box{
+        width: 70%;
+    }
+
+
+}
